@@ -1,0 +1,14 @@
+.blogs-list {
+    width: 80%;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+@media (max-width: 900px) {
+    .blogs-list {
+        display: block;
+    }
+}

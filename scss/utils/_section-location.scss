@@ -1,0 +1,13 @@
+.section-location {
+    width: 100vw;
+    min-height: 60vh;
+    background: white;
+
+    &__box {
+        // width: 80%;
+        // height: 200px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+}

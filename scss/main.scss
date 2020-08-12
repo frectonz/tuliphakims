@@ -1,0 +1,45 @@
+@import "./config";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: $font-stack;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+}
+
+img {
+    width: 50%;
+}
+
+input[type="text"] {
+    border: none;
+    background: none;
+}
+
+@import "./components/header";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/btn";
+@import "./components/card";
+@import "./components/form";
+
+@import "./utils/services-list";
+@import "./utils/three-card-list";
+@import "./utils/tow-card-list";
+@import "./utils/contact-section";
+@import "./utils/section-location";
+@import "./utils/blogs-list";
+@import "./utils/blog-card";
+@import "./utils/footer";
+@import "./utils/social-media-icons";
+@import "./utils/about";
+@import "./utils/founders";
+@import "./utils/fullscreen-nav";

@@ -1,0 +1,32 @@
+%nav-link {
+    color: $secondary-color;
+    text-decoration: none;
+    opacity: 60%;
+    transition: 500ms;
+    font-size: 1.1rem;
+
+    &:hover {
+        opacity: 100%;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    grid-area: "nav";
+
+    .nav__link {
+        @extend %nav-link;
+
+        &--active {
+            @extend %nav-link;
+            color: $third-color;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+}

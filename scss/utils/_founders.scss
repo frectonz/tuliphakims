@@ -1,0 +1,48 @@
+.founders {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.founder {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    &__img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem auto;
+        img {
+            width: 50%;
+            border-radius: 50%;
+        }
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        color: $primary-color;
+        letter-spacing: 10px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .founder {
+        &__img {
+            img {
+                width: 80%;
+            }
+        }
+        &__title {
+            font-size: 1rem;
+        }
+    }
+}

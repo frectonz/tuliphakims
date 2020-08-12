@@ -1,0 +1,52 @@
+.about-container {
+    padding: 0 2rem;
+    margin: auto;
+    width: 90vw;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background-color: rgba(0, 140, 255, 0.062);
+}
+
+.about {
+    margin: auto;
+    padding: 1rem;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px $primary-color;
+
+    &__title {
+        font-size: 2.5rem;
+        text-align: left;
+        margin: 1rem 0;
+    }
+
+    &__body {
+        text-align: left;
+        line-height: 1.6rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        display: block;
+        width: 100vw;
+    }
+
+    .about {
+        width: 95%;
+        margin: 1rem;
+
+        &__title {
+            font-size: 2rem;
+        }
+
+        &__body {
+            font-size: 1rem;
+            line-height: 1.1rem;
+        }
+    }
+}

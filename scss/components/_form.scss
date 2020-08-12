@@ -16,7 +16,7 @@
     justify-content: space-around;
     align-items: center;
 
-    input[type="text"] {
+    input {
         width: 50%;
         border-bottom: 1px solid $primary-color;
         color: $primary-color;
@@ -45,7 +45,7 @@
 @media (max-width: 900px) {
     .input {
         display: block;
-        input[type="text"] {
+        input {
             width: 80%;
         }
 

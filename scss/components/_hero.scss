@@ -4,19 +4,21 @@
     background-color: $primary-color;
     color: $secondary-color;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    gap: 3rem;
 
     &__img {
+        min-width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 1rem;
+        // margin-right: 5rem;
 
         img {
-            width: 80%;
-            border-radius: 50%;
+            width: 100%;
+            // border-radius: 50%;
             // transform: scale(2);
         }
     }

@@ -1,7 +1,6 @@
 const navMenu = document.querySelector(".header-nav-menu > img");
 const fullscreenNav = document.querySelector(".fullscreen-nav");
 const fullscreenNavClose = document.querySelector(".fullscreen-nav__close");
-console.log(fullscreenNav);
 
 navMenu.addEventListener("click", () => {
     window.scrollTo({
